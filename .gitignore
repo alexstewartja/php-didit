@@ -1,0 +1,30 @@
+# Composer Related
+composer.lock
+/vendor
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Caches
+.phpunit.cache
+.phpunit.result.cache
+/build
+
+# Editors
+/.idea
+.phpstorm.meta.php
+/.fleet
+/.vscode
+
+# Tests
+tests/assets/*
+!tests/assets/credentials.json.example
+!tests/assets/session.json
+
+# Misc
+phpunit.xml
+phpstan.neon
+testbench.yaml
+/docs
+/coverage

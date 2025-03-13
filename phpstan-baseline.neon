@@ -1,0 +1,7 @@
+parameters:
+    excludePaths:
+        - src/Didit.php
+    ignoreErrors:
+        -
+            identifier: property.unusedType
+            path: src/Models
