@@ -1,13 +1,16 @@
-<img src="https://i.ibb.co/Nq6k52k/alexstewartja-php-didit.png" alt="PHP SDK for Didit KYC/CIAM by alexstewartja on GitHub">
+<img src="https://i.ibb.co/cKzkJBrN/alexstewartja-php-didit.png" alt="PHP SDK for Didit KYC/CIAM by alexstewartja on GitHub">
 
 # PHP Didit
-
 [![Latest Stable Version](http://poser.pugx.org/alexstewartja/php-didit/v)](https://packagist.org/packages/alexstewartja/php-didit)
-![Tests Status](https://img.shields.io/github/actions/workflow/status/alexstewartja/php-didit/run-tests.yml)
 [![Total Downloads](http://poser.pugx.org/alexstewartja/php-didit/downloads)](https://packagist.org/packages/alexstewartja/php-didit)
 [![License](http://poser.pugx.org/alexstewartja/php-didit/license)](https://packagist.org/packages/alexstewartja/php-didit)
+
+![Tests Status](https://img.shields.io/github/actions/workflow/status/alexstewartja/php-didit/run-tests.yml?label=tests)
+![Static Analysis](https://img.shields.io/github/actions/workflow/status/alexstewartja/php-didit/fix-php-code-style-issues.yml?label=code%20style)
+
 [![PHP Version Required](http://poser.pugx.org/alexstewartja/php-didit/require/php)](https://packagist.org/packages/alexstewartja/php-didit)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me-A_Coffee-orange)](https://buymeacoffee.com/alexstewartja)
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me-A_Coffee-orange?logo=buy-me-a-coffee)](https://buymeacoffee.com/alexstewartja)
 
 PHP SDK for [Didit](https://didit.me/business)'s identity verification (KYC) and authentication (CIAM) solutions
 
