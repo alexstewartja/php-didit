@@ -7,17 +7,17 @@ class WebhookHelper
     /**
      * Verify an incoming Didit webhook, in a safe way, guarding against timing attacks
      *
-     * @param string $requestBody The raw (text) body of the incoming webhook request
-     * @param string $signatureHeader The `X-Signature` header of the incoming webhook request
-     * @param string $timestampHeader The `X-Timestamp` header of the incoming webhook request
-     * @param string $webhookSecretKey The webhook secret key copied from the Didit dashboard
-     * @return bool
+     * @param  string  $requestBody  The raw (text) body of the incoming webhook request
+     * @param  string  $signatureHeader  The `X-Signature` header of the incoming webhook request
+     * @param  string  $timestampHeader  The `X-Timestamp` header of the incoming webhook request
+     * @param  string  $webhookSecretKey  The webhook secret key copied from the Didit dashboard
+     *
      * @link https://docs.didit.me/identity-verification/webhooks Webhooks
      */
     public static function verifyWebhookSignature(string $requestBody, string $signatureHeader,
-                                                  string $timestampHeader, string $webhookSecretKey): bool
+        string $timestampHeader, string $webhookSecretKey): bool
     {
-        if (abs(time() - (int)$timestampHeader) > 300) {
+        if (abs(time() - (int) $timestampHeader) > 300) {
             return false;
         }
 
