@@ -1,4 +1,11 @@
+<center>
 <img src="https://i.ibb.co/cKzkJBrN/alexstewartja-php-didit.png" alt="PHP SDK for Didit KYC/CIAM by alexstewartja on GitHub">
+<br>
+<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://docs.didit.me/_next/static/media/didit-logo-wordmark-white.3ddb2264.svg#gh-dark-mode-only">
+  <img height="200px" alt="Didit Logo" src="https://docs.didit.me/_next/static/media/didit-logo-wordmark-black.3479c043.svg#gh-light-mode-only">
+</picture>
 
 # PHP Didit
 [![Latest Stable Version](http://poser.pugx.org/alexstewartja/php-didit/v)](https://packagist.org/packages/alexstewartja/php-didit)
@@ -13,6 +20,8 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me-A_Coffee-orange?logo=buy-me-a-coffee)](https://buymeacoffee.com/alexstewartja)
 
 PHP SDK for [Didit](https://didit.me/business)'s identity verification (KYC) and authentication (CIAM) solutions
+
+</center>
 
 ## Features
 
